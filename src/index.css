@@ -47,15 +47,14 @@ h3,
 
 .banner {
   background-image: url("public/img/background.png");
-  background-position: center top; /* Isso é o padrão */
-  background-position-y: 20%; /* 🛠️ Aqui você ajusta! */
+  background-position: center top;
+  background-position-y: 20%;
   background-size: cover;
   height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 
 .hero {
   background-image: url("public/img/background.png");
@@ -152,7 +151,7 @@ h3,
 }
 
 .contato-info a {
-  color: #fff; 
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
 }
