@@ -27,7 +27,7 @@ const Contato = () => {
       <div className="mapa">
         <iframe
           title="Localização da Pizzaria"
-          src="https://www.google.com/maps/place/Av.+Florestan+Fernandes,+812+-+Jardim+Pte.+Alta+I,+Guarulhos+-+SP/@-23.4093312,-46.4183827,1006m/data=!3m2!1e3!4b1!4m5!3m4!1s0x94ce89bc0d1a3b9d:0x9c95f9d9cffe5c20!8m2!3d-23.4093312!4d-46.4158078?entry=ttu&g_ep=EgoyMDI1MDUwNS4wIKXMDSoASAFQAw%3D%3D"
+          src="https://www.google.com/maps/embed?pb=SEU_CODIGO_COMPLETO"
           width="100%"
           height="300"
           style={{ border: 0 }}
