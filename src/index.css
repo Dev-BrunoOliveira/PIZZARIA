@@ -160,15 +160,6 @@ h3,
   color: #ffcc00;
 }
 
-.formulario {
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  max-width: 500px;
-  margin-inline: auto;
-}
-
 .redes-sociais a {
   display: flex;
   align-items: center;
@@ -182,6 +173,41 @@ h3,
 
 .redes-sociais a:hover {
   color: #ffcc00;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #000;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+  }
 }
 
 input,
