@@ -435,8 +435,13 @@ h2::after {
 }
 
 /* Responsive */
-.menu-toggle {
+.nav-actions-mobile {
   display: none;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.menu-toggle {
   background: none;
   border: none;
   color: white;
@@ -478,8 +483,12 @@ h2::after {
     display: flex;
   }
 
-  .menu-toggle {
-    display: block;
+  .nav-actions-mobile {
+    display: flex;
+  }
+
+  .cart-desktop-wrapper {
+    display: none;
   }
 }
 
